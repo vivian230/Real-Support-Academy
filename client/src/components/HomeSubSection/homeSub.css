@@ -1,0 +1,26 @@
+.about-us-container{
+    margin: 4rem 6rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+}
+.about-us-container h1{
+    padding-bottom: 1rem;
+}
+
+.about-us-container p{
+    padding-bottom: 2rem;
+}
+
+.about-us-container img{
+    float: right;
+    width:50%;
+    padding-left:370px ;
+}
+
+.about-us-container p{
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0;
+}

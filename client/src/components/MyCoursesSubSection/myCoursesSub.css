@@ -1,0 +1,280 @@
+.single__course__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    min-width: 300px;
+    min-height: 465px;
+    margin: 1rem;
+    padding: 30px;
+}
+
+.course__details {
+    flex-grow: 1; 
+    padding: 1rem 0;
+}
+
+.flexcontainer {
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.flexitem {
+    flex: 0 0 auto;
+    margin: 0 15px;
+}
+
+.star {
+    margin-right: 5px;
+    font-size: 17px;
+}
+
+.book {
+    margin-right: 5px;
+    vertical-align: middle;
+    font-size: 17px;
+}
+
+.difficulty {
+    padding: 0%;
+    padding-right: 0px;
+}
+
+.Difficulty {
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.courses {
+    padding: 1%;
+}
+
+.para {
+    padding: 3%;
+}
+
+.course__img {
+    height: 200px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    position: relative;
+    min-height: 200px
+}
+
+.course__img img {
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.resume_course {
+    font-weight: 600;
+    font-size: 1.1rem;
+    border: none;
+    background: none;
+    color: rgb(241, 119, 48);
+}
+
+.resume_course:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #0077cc;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.lesson,
+.students,
+.rating {
+    font-size: 0.9rem;
+    color: #0a2b1e;
+    font-weight: 500;
+}
+
+.lesson i,
+.students i,
+.rating i {
+    font-weight: 400;
+
+}
+
+.course__title {
+    font-size: 17px;
+    line-height: 2rem;
+    max-height: 4rem;
+    overflow: hidden; 
+}
+
+.course__top__left h2 {
+    padding: 2%;
+    font-weight: 600;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.search label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.search select {
+    padding: 0.5rem;
+    border: none;
+    background-color: #f2f2f2;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #444;
+    cursor: pointer;
+}
+
+.search select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0077cc;
+}
+
+.w-50.text-end button.btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.para {
+    text-align: left;
+    font-size: 20px;
+}
+
+.courses {
+    font-size: 30px;
+}
+
+.btn {
+    background-color: rgba(11, 95, 221, 0.841);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.info__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.info__item {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.enroll__container {
+    display: flex;
+    justify-content: center;
+}
+
+.filter-bar {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.filter-bar label {
+   font-size: 1rem;
+   font-weight: 500;
+   color: #444;
+   margin-right: 0.5rem;
+}
+
+.filter-bar select {
+   padding: 0.5rem;
+   border: none;
+   background-color: #ffffff;
+   border-radius: 0.25rem;
+   font-size: 1rem;
+   font-weight: 500;
+   color: #444;
+   cursor: pointer;
+   margin-right: 1rem;
+}
+
+.filter-bar select:focus {
+   outline: none;
+   box-shadow: 0 0 0 2px #0077cc;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.pagination {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #3f3f3f;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: background-color 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.pagination li a:hover {
+     background-color: #0077cc;
+     color: #fff;
+     border-color: #0077cc;
+}
+
+.pagination li.active a {
+     background-color: #0077cc;
+     color: #fff;
+     border-color: #0077cc;
+     cursor: default;
+     pointer-events: none;
+
+}

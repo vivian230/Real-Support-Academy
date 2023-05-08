@@ -1,0 +1,125 @@
+.profile-container{
+    margin: 4rem 2rem;
+    color: black;
+    width: auto;
+    /* height: 70vh; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+ 
+.profile-container h3{
+    font-size: 1.5rem;
+}
+.profile-container button{
+    cursor: pointer;
+}
+.profile-container button:hover{
+    color: rgb(241, 119, 48);
+    background-color: #007bff;
+}
+
+
+.box1-admin {
+    border: 1px solid grey;
+    margin-right: 1rem;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(50%);
+}
+
+.userIconArea {
+    margin-right: 2rem;
+}
+
+
+.userTextArea{
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+
+.box1-admin h1{
+    padding-top: 1rem;
+    text-align: center;
+}
+.box1-admin img{
+    height: auto;
+    width: 25rem;
+}
+
+
+.box1-admin p{
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.box1-admin button{
+    padding: 0.5rem ;
+    color: white;
+    background-color: #007bff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+
+}
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .profile-container{
+        margin: 1rem 1rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1-admin {
+        text-align: left;
+        padding: 2rem 1rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: auto;
+        transform: translate(0);
+    }
+
+
+    .box1-admin h1{
+        margin-top: 1.5rem;
+        margin-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .box1-admin button{
+        margin-left: 1rem;
+    }
+    .box1-admin img{
+        height: auto;
+        margin-top: 1,7rem;
+        width: 15rem !important;
+    }
+    .profile-container img{
+        height: auto;
+        width: 20rem;
+    }
+    .userIconArea {
+        margin-right: 1rem;
+    }
+    .userTextArea{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 1.2rem;
+    }
+
+    
+}

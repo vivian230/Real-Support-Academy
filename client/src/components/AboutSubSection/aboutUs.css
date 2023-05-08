@@ -1,0 +1,87 @@
+.History{
+    margin: 4rem 6rem;
+}
+
+.History h1{
+    font-size: 3rem;
+}
+
+.Mission{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.5rem;
+}
+
+.missionText{
+    width: 45%;
+    text-align: start ;
+    font-size: 1.1rem;
+}
+
+.missionText h2{
+    padding-bottom: 1rem;
+}
+ .image{
+    padding-left: 100px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    z-index: -99;
+ }
+
+ .img2{
+    width: 55%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 6px;
+ }
+
+
+ .image img{
+    width: 55%;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 6px;
+ }
+
+ @media screen and (max-width:850px){
+    .History{
+        margin: 4rem 6rem;
+    }
+
+    .Mission{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 4.5rem;
+    }
+}
+
+.imag{
+    width: 20%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.feedback{
+    margin: 1rem 6rem;
+}
+
+.feedback p{ 
+    padding-top: 2%;
+}
+
+.imagf{
+    width: 40%;
+    height: 30%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 1%;
+}

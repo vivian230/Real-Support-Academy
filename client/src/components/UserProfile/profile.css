@@ -1,0 +1,205 @@
+.profile-container{
+    margin: 4rem 2rem;
+    color: black;
+    width: auto;
+    /* height: 70vh; */
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+
+}
+ 
+.profile-container h3{
+    font-size: 1.5rem;
+}
+.profile-container button{
+    cursor: pointer;
+}
+.profile-container button:hover{
+    color: rgb(241, 119, 48);
+    background-color: #007bff;
+}
+
+
+.box1 {
+    border: 1px solid grey;
+    margin-right: 1rem;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    transform: translateX(0) !important;
+}
+
+.userIconArea {
+    margin-right: 2rem;
+}
+
+
+.userTextArea{
+    margin-top: 8rem;
+    margin-left: 2rem;
+}
+
+.box1 h1{
+    padding-top: 1rem;
+    text-align: center;
+}
+.box1 img{
+    height: auto;
+    width: 25rem;
+}
+
+
+.box1 p{
+    font-size: 1.2rem;
+    padding-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.box1 button{
+    padding: 0.5rem ;
+    color: white;
+    background-color: #007bff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+
+}
+
+
+
+.box2{
+    border: 1px solid grey;
+    margin-left: 1rem;
+    text-align: center;
+    padding: 1rem 1rem;
+    width: 50%;
+    /* height: 70vh; */
+    /* display: flex; */
+    /* flex-direction: row; */
+}
+
+.box3 {
+    margin-top: 3rem;
+    margin-right: 1rem;
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.box3 p{
+    font-size: 1.1rem;
+    padding-top: 0.8rem;
+}
+
+.quizzes{
+    border: 1px solid grey;
+    position: absolute;
+    margin-left: 3rem;
+    width: 20rem;    
+}
+
+.exams{
+    border: 1px solid grey;
+    margin-left: 27rem;
+    position: absolute;
+    width: 20rem;    
+}
+
+.box2 img{
+    width: auto;
+    height: 18rem;
+    margin-top: 2rem;
+    margin-right: 0.5rem;
+    border: 2px solid black;
+
+    
+}
+
+.box3 button{
+    padding: 0.3rem ;
+    color: white;
+    background-color: rgb(169, 192, 223);
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+} 
+
+@media screen and (max-width: 850px) {
+    .profile-container{
+        margin: 1rem 1rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 {
+        text-align: left;
+        padding: 2rem !important;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: auto !important;
+    }
+
+    .box2 {
+        padding: 1rem 1rem;
+        margin-top: 1rem;
+        margin-left:0 !important;
+        width: auto !important;
+    }
+
+    .box1 h1{
+        margin-left: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .box1 button{
+        margin-left: 1rem;
+    }
+    .box1 img{
+        height: auto;
+        width: 20rem;
+    }
+    .profile-container img{
+        height: auto;
+        width: 20rem;
+    }
+    .userIconArea {
+        margin-right: 1rem;
+    }
+    .userTextArea{
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+        margin-left: 1rem;
+    }
+
+    .box3{
+        margin-top: 2rem;
+        position: relative !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .quizzes{
+        width: 20rem;
+        flex-shrink: 3 !important;
+        position: absolute !important;
+    }
+    
+    .exams{
+        width: 20rem;  
+        position: absolute !important;  
+    }
+    
+    
+}

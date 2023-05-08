@@ -1,0 +1,183 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/*POP UP STYLING*/
+.popup {
+    position: fixed;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .popup button {
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 5px 10px;
+  }
+  
+  .popup-message {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: red;
+  }
+  
+  /*POP UP STYLING END*/
+  
+
+
+/* ACCOUNT PAGE STYLING - START*/
+    .hero-mid1 .hero-text{
+        top: 25% !important;
+
+    }
+    .hero-mid1{
+        width: 100%;
+        height: 35vh;
+        
+    }
+    .hero-mid1 h1{
+        font-size: 3.5rem !important;
+    }
+
+/* ACCOUNT PAGE STYLING - END*/
+
+/* ABOUT PAGE STYLING - START */
+    .hero-mid{
+        width: 100%;
+        height: 50vh;
+        position: relative;
+        background: black;
+        /* overflow: hidden;     */
+    }
+    /* override previous css styling for h1 using '!important' */
+    .hero-mid p{
+        font-size: 1.3rem !important;
+        font-weight: 600 !important;
+        color:white;
+    }
+    .hero-mid h1{
+        padding-top: 2em !important;
+    }
+    .hero-mid img{
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        opacity: 0.8;
+    }
+ /* ABOUT PAGE STYLING - END */
+
+ /* COURSES PAGE STYLING - START */
+    .hero-mid2{
+        width: 100%;
+        height: 35vh;
+        /* position: relative; */
+        background: black;
+    }
+
+    .hero-mid2 .hero-text{
+        top: 25% !important;
+    }
+
+    .hero-mid2 .hero-text input{
+        padding: 0.8rem;
+        border-radius: 5px;
+        width: 18rem;
+        font-size: 1rem;
+    }
+    .hero-mid2 img{
+        filter: blur(5px);
+        -webkit-filter: blur(5px);
+        opacity: 0.8;
+    }
+
+/* COURSES PAGE STYLING - START */
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.hero-text h1{
+    font-size:3rem;
+    font-weight: 800;
+    background-color: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.hero-text p{
+    padding: 0.5rem 0 2rem 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.hero-text input{
+    padding: 0.8rem;
+    border-radius: 5px;
+    width: 15rem;
+    font-size: 1rem;
+}
+.hero-text button{
+    padding: 0.8rem;
+    border-radius: 5px;
+    width: 6rem;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    background-color: rgb(42, 95, 243);
+    color: white;
+    margin-left: 0.5rem;
+}
+.hero-text button:hover{
+    background-color: grey
+}
+
+.hero-text .show{
+    text-decoration: none;
+    font-size:1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(241, 119, 48);
+    cursor: pointer;
+}
+
+.hero-text .show:hover{
+    color: grey;
+}
+
+.hero-text .hide{
+    display: none;
+}
+
+.hero-text .hideSearch{
+    display: none;
+}
+
+/* make the section dynamic */
+@media screen and (max-width:1000px){
+    .hero-text h1{
+        padding: 10px 20px;
+    }
+
+    .hero-text p{
+        font-size: 1.1rem;
+        padding: 0 0 2rem 0;
+    }
+
+}

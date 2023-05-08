@@ -1,0 +1,213 @@
+
+
+.body {
+    background-image: url("../../assets/profileHeroImg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    /* margin-top: 2rem; */
+    
+}
+
+
+.auth_form_container {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    overflow: hidden;
+    background-color: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.heading {
+    display: flex;
+    width: 200%;
+}
+
+.head {
+    width: 50%;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+.slide_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.slider_control {
+    position: relative;
+    display: flex;
+    margin: 25px 0 10px 0;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.slider {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+    line-height: 48px;
+    text-align: center;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.radiologin {
+    display: none;
+}
+
+.radioregister {
+    display: none;
+}
+
+.slide_tab {
+    position: absolute;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    width: 50%;
+    background: #007bff;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.radioregister:checked ~ .slide_tab {
+    left: 50%;
+}
+
+.radioregisterr:checked ~ label .register {
+    color: white;
+}
+
+.radiologin:checked ~ label .login {
+    color: white;
+}
+
+.form_data {
+    display: flex;
+    width: 200%;
+}
+
+.login {
+    width: 50%;
+    transition: all 0.5s ease;
+}
+
+.register {
+    width: 50%;
+    transition: all 0.5s ease;
+}
+
+.fields {
+    height: 55px;
+    width: 100%;
+    margin: 15px 0px 10px 0px;
+}
+
+.input {
+    height: 100%;
+    width: 100%;
+    padding-left: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+.login .fields .input:focus {
+    border-color: #007bff;
+}
+
+.register .fields .input:focus {
+    border-color: #007bff;
+}
+
+.input::placeholder {
+    color:black;
+}
+
+.registerlink {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.loginlink {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bolder;
+}
+
+.registerlink a {
+    color:rgb(241, 119, 48);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loginlink a {
+    color:rgb(241, 119, 48);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.registerlinka:hover {
+    text-decoration: underline;
+}
+
+.loginlinka:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    position: relative;
+    overflow: hidden;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #007bff;
+}
+
+.btn input[type="submit"] {
+    position: relative;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: bolder;
+    cursor: pointer;
+    border: none;
+}
+
+.btn_style {
+    position: absolute;
+    left: -100%;
+    height: 100%;
+    width: 200%;
+    border-radius: 5px;
+}
+
+.positive {
+    font-size: 1rem;
+    color: green;
+    padding-top: 15px;
+}
+
+.negative {
+    font-size: 1rem;
+    color: #cc0000;
+    padding-top: 15px;
+}
