@@ -1,4 +1,4 @@
-# Group 45 Software Engineering Project
+# Software Engineering Project
 
 First of all, clone the repository into vs code.
 
